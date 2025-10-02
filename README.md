@@ -71,4 +71,5 @@ brew install lidanglesensor
 
 ## Related projects
 
+- [Swift/SwiftUI implementation](https://github.com/TopScrech/Lid-Angle-Sensor)
 - [Python library that taps into this sensor](https://github.com/tcsenpai/pybooklid)
