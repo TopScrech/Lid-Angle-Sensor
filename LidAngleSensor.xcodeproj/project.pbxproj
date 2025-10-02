@@ -3,28 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		F39F36542E8F189C00D30939 /* LidAngleAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F36532E8F188B00D30939 /* LidAngleAudioEngine.swift */; };
+		F39F36552E8F18A200D30939 /* LidAngleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F364E2E8F17DB00D30939 /* LidAngleVM.swift */; };
+		F39F36562E8F18A200D30939 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F364D2E8F17DB00D30939 /* ContentView.swift */; };
+		F39F36572E8F18AC00D30939 /* CreakAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F36502E8F17DB00D30939 /* CreakAudioEngine.swift */; };
+		F39F36582E8F18AC00D30939 /* AudioMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F36522E8F187F00D30939 /* AudioMode.swift */; };
+		F39F36592E8F18AC00D30939 /* ThereminAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F36512E8F17DB00D30939 /* ThereminAudioEngine.swift */; };
+		F39F365A2E8F18AC00D30939 /* LidAngleSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F364F2E8F17DB00D30939 /* LidAngleSensor.swift */; };
+		F39F365B2E8F18B000D30939 /* LidAngleSensorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F364A2E8F17DB00D30939 /* LidAngleSensorApp.swift */; };
+		F39F365C2E8F190D00D30939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F364B2E8F17DB00D30939 /* Assets.xcassets */; };
+		F39F365D2E8F191B00D30939 /* CREAK_LOOP.wav in Resources */ = {isa = PBXBuildFile; fileRef = F39F364C2E8F17DB00D30939 /* CREAK_LOOP.wav */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA6BE6462E6CA1E1003F66D4 /* LidAngleSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LidAngleSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F364A2E8F17DB00D30939 /* LidAngleSensorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidAngleSensorApp.swift; sourceTree = "<group>"; };
+		F39F364B2E8F17DB00D30939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39F364C2E8F17DB00D30939 /* CREAK_LOOP.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CREAK_LOOP.wav; sourceTree = "<group>"; };
+		F39F364D2E8F17DB00D30939 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F39F364E2E8F17DB00D30939 /* LidAngleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidAngleVM.swift; sourceTree = "<group>"; };
+		F39F364F2E8F17DB00D30939 /* LidAngleSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidAngleSensor.swift; sourceTree = "<group>"; };
+		F39F36502E8F17DB00D30939 /* CreakAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreakAudioEngine.swift; sourceTree = "<group>"; };
+		F39F36512E8F17DB00D30939 /* ThereminAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThereminAudioEngine.swift; sourceTree = "<group>"; };
+		F39F36522E8F187F00D30939 /* AudioMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMode.swift; sourceTree = "<group>"; };
+		F39F36532E8F188B00D30939 /* LidAngleAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidAngleAudioEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EA6BE6482E6CA1E1003F66D4 /* LidAngleSensor */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LidAngleSensor;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EA6BE6432E6CA1E1003F66D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -32,7 +45,7 @@
 		EA6BE63D2E6CA1E1003F66D4 = {
 			isa = PBXGroup;
 			children = (
-				EA6BE6482E6CA1E1003F66D4 /* LidAngleSensor */,
+				F39F36402E8F17D400D30939 /* LidAngleSensor */,
 				EA6BE6472E6CA1E1003F66D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,23 @@
 				EA6BE6462E6CA1E1003F66D4 /* LidAngleSensor.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F39F36402E8F17D400D30939 /* LidAngleSensor */ = {
+			isa = PBXGroup;
+			children = (
+				F39F364A2E8F17DB00D30939 /* LidAngleSensorApp.swift */,
+				F39F364B2E8F17DB00D30939 /* Assets.xcassets */,
+				F39F364C2E8F17DB00D30939 /* CREAK_LOOP.wav */,
+				F39F364D2E8F17DB00D30939 /* ContentView.swift */,
+				F39F364E2E8F17DB00D30939 /* LidAngleVM.swift */,
+				F39F36532E8F188B00D30939 /* LidAngleAudioEngine.swift */,
+				F39F36522E8F187F00D30939 /* AudioMode.swift */,
+				F39F364F2E8F17DB00D30939 /* LidAngleSensor.swift */,
+				F39F36502E8F17DB00D30939 /* CreakAudioEngine.swift */,
+				F39F36512E8F17DB00D30939 /* ThereminAudioEngine.swift */,
+			);
+			path = LidAngleSensor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -58,14 +88,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EA6BE6482E6CA1E1003F66D4 /* LidAngleSensor */,
-			);
 			name = LidAngleSensor;
-			packageProductDependencies = (
-			);
 			productName = LidAngleSensor;
 			productReference = EA6BE6462E6CA1E1003F66D4 /* LidAngleSensor.app */;
 			productType = "com.apple.product-type.application";
@@ -93,7 +116,7 @@
 			);
 			mainGroup = EA6BE63D2E6CA1E1003F66D4;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = EA6BE6472E6CA1E1003F66D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -106,25 +129,31 @@
 /* Begin PBXResourcesBuildPhase section */
 		EA6BE6442E6CA1E1003F66D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F39F365C2E8F190D00D30939 /* Assets.xcassets in Resources */,
+				F39F365D2E8F191B00D30939 /* CREAK_LOOP.wav in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA6BE6422E6CA1E1003F66D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				F39F36552E8F18A200D30939 /* LidAngleVM.swift in Sources */,
+				F39F36572E8F18AC00D30939 /* CreakAudioEngine.swift in Sources */,
+				F39F36582E8F18AC00D30939 /* AudioMode.swift in Sources */,
+				F39F36592E8F18AC00D30939 /* ThereminAudioEngine.swift in Sources */,
+				F39F365A2E8F18AC00D30939 /* LidAngleSensor.swift in Sources */,
+				F39F365B2E8F18B000D30939 /* LidAngleSensorApp.swift in Sources */,
+				F39F36562E8F18A200D30939 /* ContentView.swift in Sources */,
+				F39F36542E8F189C00D30939 /* LidAngleAudioEngine.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EA6BE6532E6CA1E1003F66D4 /* Debug */ = {
+		EA6BE6532E6CA1E1003F66D4 /* Debug configuration for PBXProject "LidAngleSensor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,10 +212,11 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
-		EA6BE6542E6CA1E1003F66D4 /* Release */ = {
+		EA6BE6542E6CA1E1003F66D4 /* Release configuration for PBXProject "LidAngleSensor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,10 +268,11 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
-		EA6BE6562E6CA1E1003F66D4 /* Debug */ = {
+		EA6BE6562E6CA1E1003F66D4 /* Debug configuration for PBXNativeTarget "LidAngleSensor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -249,8 +280,8 @@
 				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CG56CG5WCQ;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
@@ -260,6 +291,8 @@
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lid Angle Sensor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -267,9 +300,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = gold.samhenri.LidAngleSensor;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Lid-Angle-Sensor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
@@ -283,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		EA6BE6572E6CA1E1003F66D4 /* Release */ = {
+		EA6BE6572E6CA1E1003F66D4 /* Release configuration for PBXNativeTarget "LidAngleSensor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,8 +324,8 @@
 				AUTOMATION_APPLE_EVENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CG56CG5WCQ;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
@@ -302,6 +335,8 @@
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lid Angle Sensor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -309,9 +344,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.0.3;
-				PRODUCT_BUNDLE_IDENTIFIER = gold.samhenri.LidAngleSensor;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.topscrech.Lid-Angle-Sensor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
@@ -331,19 +366,17 @@
 		EA6BE6412E6CA1E1003F66D4 /* Build configuration list for PBXProject "LidAngleSensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA6BE6532E6CA1E1003F66D4 /* Debug */,
-				EA6BE6542E6CA1E1003F66D4 /* Release */,
+				EA6BE6532E6CA1E1003F66D4 /* Debug configuration for PBXProject "LidAngleSensor" */,
+				EA6BE6542E6CA1E1003F66D4 /* Release configuration for PBXProject "LidAngleSensor" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		EA6BE6552E6CA1E1003F66D4 /* Build configuration list for PBXNativeTarget "LidAngleSensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA6BE6562E6CA1E1003F66D4 /* Debug */,
-				EA6BE6572E6CA1E1003F66D4 /* Release */,
+				EA6BE6562E6CA1E1003F66D4 /* Debug configuration for PBXNativeTarget "LidAngleSensor" */,
+				EA6BE6572E6CA1E1003F66D4 /* Release configuration for PBXNativeTarget "LidAngleSensor" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
